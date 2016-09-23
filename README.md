@@ -1,2 +1,2 @@
 # wandifrog.github.io
-Wandi Frog Blog
+Wandi Blog
