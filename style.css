@@ -27,8 +27,8 @@
 	position: relative;
 }
 
-/* PART-1 */
-/*gambar dan judul*/
+/* ================================================== PART-1 */
+/*logo dan header*/
 .part-1 {
 	position: relative;
 	width: 1000px;
@@ -72,13 +72,13 @@
 	bottom: -53px;
 	left: 77px;
 	color: white;
-	font-size: 1.6em;
+	font-size: 26px;
 	z-index: 3;
 	font-family: 'Yatra One', cursive;
 	font-style: italic;
 }
 
-/* PART-15 */
+/* ================================================== PART-15 */
 .part-15 {
 	position: absolute;
 	width: 1000px;
@@ -101,7 +101,7 @@
 }
 
 
-/* PART-2 */
+/* ================================================== PART-2 */
 /*perkenalan*/
 .part-2 {
 	position: relative;
@@ -116,92 +116,84 @@
 	margin: 0 auto;
 	padding: 12px;
 	border-left: 5px solid #26393D;
-	font-size: 1.1em;
+	font-size: 17px;
 }
 
-/* PART-3 */
-/*foto dan tulisan*/
+/* ================================================== PART-3 */
 .part-3 {
 	position: relative;
 	background-color: white;
 	width: 1000px;
-	height: 600px;
+	height: auto;
 	border-top: 1px solid gray;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
 .wrap-3 {
 	width: 900px;
-	height: 500px;
-	margin: 50px auto;
+	height: auto;
+	margin: 0 auto;
 	background-color: transparent;
 }
 .profile {
+	padding: 50px 0;
 	float: left;
+	background-color: transparent;
 }
 .profile .title {
 	font-size: 30px;
 	font-variant: small-caps;
-	padding: 20px;
+	padding: 0 15px;
 }
 .profile .desc {
 	width: 600px;
-	padding: 25px;
-	font-size: 1.1em;
+	padding: 25px 5px 10px 25px;
+	font-size: 18px;
 }
 .part-3 .title-2 {
-	padding: 0 10px -5px 10px;
-	font-family: 'Titillium Web', sans-serif;
-	color: midnightblue;
-	font-size: 22px;
-	letter-spacing: 2px;
-	font-variant: small-caps;
-	border-bottom: 1px solid midnightblue;
+	padding: 0 5px;
+	margin: 0 20px;
+	font-size: 20px;
+	border-bottom: 1px solid black;
 	display: inline-block;
 }
 .visi {
-	font-family: 'Muli', sans-serif;
 	text-align: center;
-	padding-top: 15px;
-	margin-bottom: 10px;
-	margin-right: 15px; 
-/*	background-color: crimson;*/
 	font-size: 16px; 
 	opacity: .9;
 }
 .visi::before {
   content: "\201C";
-  font-size: 40px;
+  font-size: 30px;
   opacity: .9;
 }
 .visi::after {
   content: "\201D";
-  font-size: 40px;
+  font-size: 30px;
   opacity: .9;
 }
 	
 .misi {
-	font-family: 'Muli', sans-serif;
-	   list-style: none;
-    padding:0;
-    margin:0;
+	list-style: none;
+    padding-left: 45px;
 }
 li:before {
     content: "\2022"; /* bullet */
-    color: skyblue; /* or whatever color you prefer */
+    color: skyblue;
     padding-right: 5px;
     font-size: 22px;
 }
 .card {
-	float: left;
+	position: absolute;
+	right: 50px;
+	top: 50px;
 	width: 250px;
-	height: 425px;
 }
 .alex {
 	width: 250px;
 	height: 325px;
 	border-radius: 4px 4px 0 0;
-	/*background-image: url(owner.jpg);*/
+/*	background-image: url(owner.jpg);*/
 	background-color: yellowgreen;
 }
 .alex-desc {
@@ -211,6 +203,7 @@ li:before {
 	border-bottom: 1px solid rgba(0,0,0,.3);
 	border-left: 1px solid rgba(0,0,0,.3);
 	border-radius: 0 0 4px 4px;
+	background-color: white;
 }
 .alex-desc-1 {
 	font-size: 20px;
@@ -219,17 +212,17 @@ li:before {
 .alex-desc-2 {
 	font-size: 15px;
 	color: gray;
-	opacity: .7;
+	opacity: .75;
 }
 
 
-/* PART-4 */
+/* ================================================== PART-4 */
 .part-4 {
 	position: relative;
-	top: 90px;
+	top: 50px;
 	background-color: white;
 	width: 1000px;
-	height: 1080px;
+	height: 1020px;
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
 }
@@ -237,7 +230,6 @@ li:before {
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Rock Salt', cursive;
-	/*padding: 30px 0 10px 0;*/
 	padding-top: 25px;
 }
 .testimoni-2 {
@@ -248,7 +240,7 @@ li:before {
 	background-repeat: no-repeat;
 }
 
-/* PART-5 */
+/* ================================================== PART-5 */
 .part-5 {
 	position: relative;
     width: 1000px;
@@ -276,18 +268,3 @@ li:before {
 	height: 300px;
 	background-color: limegreen;
 }
-
-/*.ads {
-	position: absolute;
-	top: 1225px;
-	background-image: url(ads2.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	width: 100%;
-	height: 600px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	z-index: -1;
-	background-color: white;
-	transform: scale(1.32);
-}*/
