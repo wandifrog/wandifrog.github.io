@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
+	cursor: default;
 }
 .clear {
 	clear: both;
@@ -23,7 +24,6 @@
 .wrap {
 	width: 1000px;
 	/*background-color: #e1e1e1;*/
-	border-radius: 2px;
 	position: relative;
 }
 
@@ -33,7 +33,6 @@
 	position: relative;
 	width: 1000px;
 	height: 125px;
-	background-color: #26393D;
 }
 /*#242F39*/
 .logo {
@@ -51,10 +50,11 @@
 .part-1 .title {
 	position: relative;
 	float: right;
-	background-color: inherit;
+	background-color: #26393D;
 	width: 800px;
 	height: 100%;
 	padding: 10px;
+	border-top-right-radius: 3px;
 }
 .part-1 .title-1 {
 	position: absolute;
@@ -70,9 +70,9 @@
 .part-1 .title-2 {
 	position: absolute;
 	bottom: -53px;
-	left: 37px;
+	left: 77px;
 	color: white;
-	font-size: 1.7em;
+	font-size: 1.6em;
 	z-index: 3;
 	font-family: 'Yatra One', cursive;
 	font-style: italic;
@@ -127,6 +127,8 @@
 	width: 1000px;
 	height: 600px;
 	border-top: 1px solid gray;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
 .wrap-3 {
 	width: 900px;
@@ -144,11 +146,52 @@
 }
 .profile .desc {
 	width: 600px;
-	height: 500px;
 	padding: 25px;
 	font-size: 1.1em;
 }
-
+.part-3 .title-2 {
+	padding: 0 10px -5px 10px;
+	font-family: 'Titillium Web', sans-serif;
+	color: midnightblue;
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-variant: small-caps;
+	border-bottom: 1px solid midnightblue;
+	display: inline-block;
+}
+.visi {
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 10px;
+	margin-right: 15px; 
+/*	background-color: crimson;*/
+	font-size: 16px; 
+	opacity: .9;
+}
+.visi::before {
+  content: "\201C";
+  font-size: 40px;
+  opacity: .9;
+}
+.visi::after {
+  content: "\201D";
+  font-size: 40px;
+  opacity: .9;
+}
+	
+.misi {
+	font-family: 'Muli', sans-serif;
+	   list-style: none;
+    padding:0;
+    margin:0;
+}
+li:before {
+    content: "\2022"; /* bullet */
+    color: skyblue; /* or whatever color you prefer */
+    padding-right: 5px;
+    font-size: 22px;
+}
 .card {
 	float: left;
 	width: 250px;
@@ -163,15 +206,15 @@
 }
 .alex-desc {
 	width: 250px;
-	height: 70px;
-	padding: 7px;
-	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
+	padding: 10px 7px;
+	border-right: 1px solid rgba(0,0,0,.3);
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	border-left: 1px solid rgba(0,0,0,.3);
 	border-radius: 0 0 4px 4px;
 }
 .alex-desc-1 {
 	font-size: 20px;
+	font-weight: 500;
 }
 .alex-desc-2 {
 	font-size: 15px;
@@ -179,34 +222,72 @@
 	opacity: .7;
 }
 
+
 /* PART-4 */
-/*visi dan misi*/
 .part-4 {
-	background-color: transparent;
+	position: relative;
+	top: 90px;
+	background-color: white;
 	width: 1000px;
-	height: 200px;
+	height: 1080px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
 }
-.ads {
+.testimoni {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Rock Salt', cursive;
+	/*padding: 30px 0 10px 0;*/
+	padding-top: 25px;
+}
+.testimoni-2 {
+	width: 968px;
+	height: 800px;
+	margin: 0 auto;
+	background-image: url(testimoni.jpg);
+	background-repeat: no-repeat;
+}
+
+/* PART-5 */
+.part-5 {
+	position: relative;
+    width: 1000px;
+    height: 300px;
+ 	background-color: cadetblue
+}
+.zig {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.zig > div {
+    display: inline-block;
+    width: 0;
+    border: 15px transparent solid;
+    border-top: 15px white solid;
+    position: relative;
+    z-index: 2;
+}
+
+/* PART-6 */
+.part-6 {
+	position: relative;
+	width: 1000px;
+	height: 300px;
+	background-color: limegreen;
+}
+
+/*.ads {
 	position: absolute;
 	top: 1225px;
 	background-image: url(ads2.jpg);
 	background-attachment: fixed;
 	background-position: center;
-	width: 1000px;
+	width: 100%;
 	height: 600px;
+	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: -1;
 	background-color: white;
-}
-
-/* PART-5 */
-/*parallax*/
-.part-5 {
-	position: relative;
-	top: 300px;
-	background-color: rebeccapurple;
-	width: 1000px;
-	height: 500px;
-
-}
-
+	transform: scale(1.32);
+}*/
