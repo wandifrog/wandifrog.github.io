@@ -90,12 +90,14 @@
 	height: 150px;
 	float: left;
 	background-color: #26393D;
+	border: none;
 }
 .box-2 {
 	width: 450px;
 	height: 75px;
 	float: left;
 	background-color: #26393D;
+	border: none;
 }
 
 
@@ -161,19 +163,15 @@
 .visi {
 	text-align: center;
 	font-size: 16px; 
-	opacity: .9;
 	margin: 10px 0;
-	/*display: inline;*/
 }
 .visi::before {
   content: "\201C";
   font-size: 30px;
-  opacity: .9;
 }
 .visi::after {
   content: "\201D";
   font-size: 30px;
-  opacity: .9;
 }
 	
 .misi {
@@ -198,7 +196,7 @@ li:before {
 	height: 325px;
 	border-radius: 4px 4px 0 0;
 	background-image: url(Owner.jpg);
-	background-size: contain;
+	/*background-size: contain;*/
 }
 .alex-desc {
 	width: 250px;
@@ -222,9 +220,10 @@ li:before {
 
 
 /* ================================================== PART-4 */
+/*testimonial*/
 .part-4 {
 	position: relative;
-	top: 50px;
+	top: 25px;
 	background-color: white;
 	width: 1000px;
 	height: 1020px;
@@ -248,28 +247,66 @@ li:before {
 /* ================================================== PART-5 */
 .part-5 {
 	position: relative;
+	margin-top: -45px;
     width: 1000px;
     height: 300px;
- 	background-color: #eeeeee;
+ 	background-color: white;
 }
-.zig {
+.divider-1 {
+	width: 700px;
+	height: 5px;
+	margin: 10px auto;
+	background-color: teal;
+	border-radius: 100%;
+
+}
+.divider-2 {
+	width: 450px;
+	height: 5px;
+	margin: 0 auto;
+	background-color: lightskyblue;
+	border-radius: 100%;
+}
+.omzet {
+	font-size: 30px;
+	margin: 42px 40px 0 40px;
+	font-variant: small-caps;
+}
+.omzet-desc {
+	font-size: 18px;
+	margin: 0 50px;
+	padding: 5px 5px 10px 25px;
+	letter-spacing: 1px;
+}
+
+
+/* ================================================== PART-6 */
+.part-6 {
+	position: relative;
+	width: 1000px;
+	height: 400px;
+	background-color: crimson;
+	/*background-color: rgba(255,255,255,.7);*/
+}
+.reference {}
+.wandi {}
+
+.maximusltd {}
+
+
+
+/* ================================================== ETC */
+.zork {
+	position: relative;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
 }
-.zig > div {
+.zork > div {
     display: inline-block;
     width: 0;
-    border: 15px transparent solid;
-    border-top: 15px white solid;
+    border: 14px transparent solid;
+    border-top: 14px white solid;
     position: relative;
     z-index: 2;
-}
-
-/* PART-6 */
-.part-6 {
-	position: relative;
-	width: 1000px;
-	height: 300px;
-	background-color: limegreen;
 }
