@@ -249,7 +249,7 @@ li:before {
 	position: relative;
 	margin-top: -45px;
     width: 1000px;
-    height: 300px;
+    height: 315px;
  	background-color: white;
 }
 .divider-1 {
@@ -277,9 +277,18 @@ li:before {
 	margin: 0 50px;
 	padding: 5px 5px 10px 25px;
 	letter-spacing: 1px;
+	text-align: justify;
 }
-
-
+/*.profile .title {
+	font-size: 30px;
+	font-variant: small-caps;
+	padding: 0 15px;
+}
+.profile .desc {
+	width: 600px;
+	padding: 25px 5px 10px 25px;
+	font-size: 18px;
+}*/
 /* ================================================== PART-6 */
 .part-6 {
 	position: relative;
