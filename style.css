@@ -5,6 +5,10 @@
 	font-family: 'Roboto', sans-serif;
 	cursor: default;
 }
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
 .clear {
 	clear: both;
 }
@@ -112,11 +116,12 @@
 .intro {
 	position: relative;
 	top: 200px;
-	width: 600px;
+	width: 575px;
 	margin: 0 auto;
 	padding: 12px;
 	border-left: 5px solid #26393D;
 	font-size: 17px;
+	text-align: justify;
 }
 
 /* ================================================== PART-3 */
@@ -275,8 +280,8 @@ li:before {
 .omzet-desc {
 	font-size: 18px;
 	margin: 0 50px;
-	padding: 5px 5px 10px 25px;
-	letter-spacing: 1px;
+	padding: 15px 25px 10px 25px;
+/*	letter-spacing: 1px;*/
 	text-align: justify;
 }
 /*.profile .title {
@@ -293,15 +298,51 @@ li:before {
 .part-6 {
 	position: relative;
 	width: 1000px;
-	height: 400px;
-	background-color: crimson;
-	/*background-color: rgba(255,255,255,.7);*/
+	height: 319px;
+	margin: 20px auto;
 }
-.reference {}
-.wandi {}
+.reference {
+	color: white;
+	font-size: 24px;
+	padding: 20px 10px;
+	font-weight: 500;
+	text-align: center;
+	background-color: #26393D;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.wandi {
+	width: 500px;
+	height: 250px;
+	background-color: rgba(255,255,255,.8);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
 
-.maximusltd {}
-
+.maximusltd {
+	position: absolute;
+	bottom: 75px;
+	right: 75px;
+	width: 350px;
+	height: 100px;
+	background-color: rgba(0,0,0,.15);
+	color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 20px 5px black;
+	line-height: 100px;
+	font-size: 45px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 700;
+	transition: color 0.15s linear,
+			box-shadow 0.15s ease-in-out,
+			background-color 0.1s ease-in-out;
+}
+.maximusltd:hover {
+	background-color: transparent;
+	box-shadow: 0 0 15px 5px black;
+	color: rgba(255,255,255,0.75);
+}
 
 
 /* ================================================== ETC */
