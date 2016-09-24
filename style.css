@@ -16,14 +16,12 @@
 
 .container {
 	width: 1100px;
-	/*background-color: rgba(0,0,0,.5);*/
 	margin: 100px auto;
 	padding: 0 50px;
 }
 
 .wrap {
 	width: 1000px;
-	/*background-color: #e1e1e1;*/
 	position: relative;
 }
 
@@ -120,11 +118,12 @@
 }
 
 /* ================================================== PART-3 */
+/*profil*/
 .part-3 {
 	position: relative;
 	background-color: white;
 	width: 1000px;
-	height: auto;
+	height: 550px;
 	border-top: 1px solid gray;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
@@ -138,7 +137,8 @@
 .profile {
 	padding: 50px 0;
 	float: left;
-	background-color: transparent;
+	background-color: white;
+	max-height: 100%;
 }
 .profile .title {
 	font-size: 30px;
@@ -154,13 +154,16 @@
 	padding: 0 5px;
 	margin: 0 20px;
 	font-size: 20px;
-	border-bottom: 1px solid black;
 	display: inline-block;
+	color: teal;
+	border-bottom: 1px solid black
 }
 .visi {
 	text-align: center;
 	font-size: 16px; 
 	opacity: .9;
+	margin: 10px 0;
+	/*display: inline;*/
 }
 .visi::before {
   content: "\201C";
@@ -176,6 +179,7 @@
 .misi {
 	list-style: none;
     padding-left: 45px;
+    margin: 10px 0;
 }
 li:before {
     content: "\2022"; /* bullet */
@@ -193,12 +197,11 @@ li:before {
 	width: 250px;
 	height: 325px;
 	border-radius: 4px 4px 0 0;
-/*	background-image: url(owner.jpg);*/
-	background-color: yellowgreen;
+	background-image: url(owner.jpg);
 }
 .alex-desc {
 	width: 250px;
-	padding: 10px 7px;
+	padding: 10px;
 	border-right: 1px solid rgba(0,0,0,.3);
 	border-bottom: 1px solid rgba(0,0,0,.3);
 	border-left: 1px solid rgba(0,0,0,.3);
@@ -206,11 +209,12 @@ li:before {
 	background-color: white;
 }
 .alex-desc-1 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 500;
+	margin-bottom: 3px;
 }
 .alex-desc-2 {
-	font-size: 15px;
+	font-size: 14px;
 	color: gray;
 	opacity: .75;
 }
@@ -245,7 +249,7 @@ li:before {
 	position: relative;
     width: 1000px;
     height: 300px;
- 	background-color: cadetblue
+ 	background-color: #eeeeee;
 }
 .zig {
     width: 100%;
