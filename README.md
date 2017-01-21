@@ -1,2 +1,2 @@
 https://wandifrog.github.io/
-![Alt text](/path/to/img.jpg)
+![Alt text](file/ss.png)
